@@ -1,7 +1,6 @@
 package org.saphire.shocky.bot
 
-import org.pircbotx.Configuration
-import org.pircbotx.PircBotX
+import org.pircbotx.{Configuration, PircBotX}
 
-class ShockyBot(configuration: Configuration) extends PircBotX(configuration) {
+class ShockyBot(configuration:Configuration) extends PircBotX(configuration) {
 }
